@@ -8,9 +8,9 @@ import java.util.OptionalDouble;
  * 				and then use the specialized methods.
  */
 public class F3_Aggregation {
-	/*
-	 * The following code prints the highest income in the employee list using the max() method of the DoubleStream:
-	 */
+/*
+ * The following code prints the highest income in the employee list using the max() method of the DoubleStream:
+ */
 	public static void main(String[] args) {
 		OptionalDouble income = Employee.persons()
 				.stream()
