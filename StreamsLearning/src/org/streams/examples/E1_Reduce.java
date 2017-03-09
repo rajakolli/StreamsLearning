@@ -22,7 +22,7 @@ import java.util.List;
  * 				Optional<T> reduce(BinaryOperator<T> accumulator)
  */
 public class E1_Reduce {
-
+// calculate sum
 	public static void main(String[] args) {
 		List<Integer> numbers = Arrays.asList(1,2,3,4,5);
 		int sum = numbers.stream()
