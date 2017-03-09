@@ -15,7 +15,7 @@ public class F1_Aggregation {
 							.stream()
 							.mapToDouble(Employee::getIncome)
 							.sum();
-
+		System.out.println(totalIncome);
 	}
 
 }
