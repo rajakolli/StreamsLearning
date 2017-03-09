@@ -9,7 +9,7 @@ import java.util.stream.Stream;
   				and then flatten the stream of streams to a stream.
 
  */
-public class C4_FlatMap {
+public class D2_FlatMap {
 /*
 	The following code shows how to convert a stream of strings to a stream of characters.
 	

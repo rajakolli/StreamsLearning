@@ -9,7 +9,7 @@ import java.util.stream.Stream;
   				and then flatten the stream of streams to a stream.
 
  */
-public class C3_FlatMap {
+public class D1_FlatMap {
 
 /*
 	The following code maps a stream of three numbers: 1, 2, and 3 

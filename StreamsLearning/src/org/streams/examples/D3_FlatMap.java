@@ -10,7 +10,7 @@ import java.util.stream.Stream;
   				and then flatten the stream of streams to a stream.
 
  */
-public class C5_FlatMap {
+public class D3_FlatMap {
 /*
 	The following code flatMaps the stream of string values to a IntStreams, 
 			then maps IntStream to Stream of characters.
