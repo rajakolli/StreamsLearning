@@ -1,7 +1,5 @@
 package org.streams.examples;
 
-import java.lang.ProcessBuilder.Redirect;
-
 /*
  * The reduce() operation combines all elements in a stream to produce a single value.
  * The reduce operation takes two parameters called a seed (initial value) and an accumulator.
