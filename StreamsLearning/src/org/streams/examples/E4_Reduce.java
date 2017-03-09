@@ -29,7 +29,7 @@ package org.streams.examples;
  */
 
 public class E4_Reduce {
-
+//Java Stream Map Reduce in parallel
 // The following code shows how the sequential and parallel reduce operation works.
 	
 	public static void main(String[] args) {
