@@ -1,6 +1,5 @@
 package org.streams.examples;
 
-import java.util.Optional;
 import java.util.OptionalDouble;
 
 /*
