@@ -1,12 +1,13 @@
 package org.streams.learning;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class GShop {
 
 
 	/*public double getAvgPriceByType(List<String[]> data, String type) {
-		// TODO complete this method
+
 		
 		return 0;
 	}*/
@@ -17,13 +18,13 @@ public class GShop {
 		int totalCount = 0;
 		//double average = 0.0;
 		
-		/*
+		
 		List<Double> dblList = Arrays.asList(1.1,2.1,2.2,3.1,1.5,5.3);
 	    Double average = dblList.stream().mapToDouble(val -> val).average().getAsDouble();
 	    
 	    
 	    System.out.println("average of test is : " +average);
-	    */
+	    
 		
 		if (values!=null && values.size()!=0) {
 			for (List l : values) {
@@ -54,13 +55,7 @@ public class GShop {
 			return 0;
 		}
 		
-		
-		/*for (List list: returnList ) {
-			System.out.println("l is" + list);
-			for (String s : list) {
-				System.out.println("String s " + s);
-			}
-		}*/
+
 	}
 
 }
