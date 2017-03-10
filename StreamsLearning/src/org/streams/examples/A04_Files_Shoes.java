@@ -27,6 +27,7 @@ public class A04_Files_Shoes {
 		List<String> lines=breader.lines().collect(Collectors.toList());
 		//System.out.println(lines);
 		
+		//-------------------------------------------------------------------------------------------
 		System.out.println("");
 		System.out.println("-----------------------------");
 		System.out.println("Shoes list");
@@ -37,6 +38,7 @@ public class A04_Files_Shoes {
 				.collect(Collectors.toList());		
 		System.out.println(shoes);
 		
+		//-------------------------------------------------------------------------------------------
 		//Alternatively
 		System.out.println("");
 		System.out.println("-----------------------------");
@@ -47,6 +49,7 @@ public class A04_Files_Shoes {
 			    .collect(Collectors.toList());		
 		System.out.println(shoesList);
 
+		//-------------------------------------------------------------------------------------------
 		// Lets find out the type of shoes made  Brand "Nike"
 		System.out.println("");
 		System.out.println("-----------------------------");
@@ -61,10 +64,11 @@ public class A04_Files_Shoes {
 			                    System.out.println(" Nike makes " + shoeFor);});
 		
 		
+		//-------------------------------------------------------------------------------------------
 		//List the Names of all "Sport-Shoes" shoes from the dataset	
 		System.out.println("");
 		System.out.println("-----------------------------");
-		System.out.println("Names of all the Mini-Series movies");
+		System.out.println("Names of all the Sport-Shoes");
 		List<String> sportShoe=lines.stream()
 				   .skip(1)
 				   .map(line -> Arrays.asList(line.split(";")))	
@@ -75,17 +79,18 @@ public class A04_Files_Shoes {
 				   .collect(Collectors.toList());
 		System.out.println(sportShoe);
 		
+		//-------------------------------------------------------------------------------------------
 		//Find out total number of "Mini-Series" movies from the dataset	
 		System.out.println("");
 		System.out.println("-----------------------------");
-		System.out.println("Total number of Mini-Series movies");
+		System.out.println("Total number of Sport-Shoes");
 		long totalsportShoes=lines.stream()
 				.skip(1)
 				.map(line -> Arrays.asList(line.split(";")).get(2))	
 				.filter(shoeType -> shoeType.trim().equalsIgnoreCase("Sport-Shoes"))
 				.count();
 
-			System.out.println("Total Mini-Series Movies : "+totalsportShoes);		
+			System.out.println("Total Sport-Shoes : "+totalsportShoes);		
 	}
 
 }
