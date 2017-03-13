@@ -17,7 +17,7 @@ import java.util.List;
  * 				A short-circuiting operation may not have to process the entire stream to return the result.
  *   
  */
-public class P1_Find {
+public class P1_Match {
 //The following code shows how to perform match operations on streams.
 	public static void main(String[] args) {
 		List<Employee> persons = Employee.persons();
