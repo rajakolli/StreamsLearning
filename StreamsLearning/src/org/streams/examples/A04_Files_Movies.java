@@ -26,7 +26,7 @@ public class A04_Files_Movies {
 		     	}
 				
 		List<String> lines=breader.lines().collect(Collectors.toList());
-		//System.out.println(lines);
+		System.out.println(lines);
 		
 		//-------------------------------------------------------------------------------------------
 		System.out.println("");
