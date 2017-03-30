@@ -1,4 +1,4 @@
-package org.streams.examples;
+package rajakolli.streams.learning;
 /*
  * Streams support a count operation through the count() 
  * 				method that returns the number of elements in the stream as a long.

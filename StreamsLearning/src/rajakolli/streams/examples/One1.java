@@ -1,4 +1,4 @@
-package org.streams.learning;
+package rajakolli.streams.examples;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 public class One1 {

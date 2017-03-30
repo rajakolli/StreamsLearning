@@ -1,4 +1,4 @@
-package org.streams.examples;
+package rajakolli.streams.learning;
 /*
  * We can collect data from a stream to a Map.
  * 

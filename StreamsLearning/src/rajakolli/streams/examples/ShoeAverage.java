@@ -1,4 +1,4 @@
-package org.streams.learning;
+package rajakolli.streams.examples;
 import java.util.stream.Stream;
 import java.nio.file.Files;
 import java.nio.file.Paths;

@@ -1,4 +1,4 @@
-package org.streams.examples;
+package rajakolli.streams.learning;
 
 /*
  * The reduce() operation combines all elements in a stream to produce a single value.

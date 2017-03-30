@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.streams.learning;
+package rajakolli.streams.examples;
 
 /**
  * @author raja.kolli

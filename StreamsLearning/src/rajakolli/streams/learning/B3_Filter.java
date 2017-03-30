@@ -1,4 +1,4 @@
-package org.streams.examples;
+package rajakolli.streams.learning;
 /*
 * The filter operation produces a filtered stream, 
  		a subset of the input stream, 

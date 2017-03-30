@@ -1,4 +1,4 @@
-package org.streams.examples;
+package rajakolli.streams.learning;
 
 // simple streams example using peek, filter, map and reduce 
 

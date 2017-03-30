@@ -1,4 +1,4 @@
-package org.streams.examples;
+package rajakolli.streams.learning;
 
 import java.util.ArrayList;
 import java.util.List;

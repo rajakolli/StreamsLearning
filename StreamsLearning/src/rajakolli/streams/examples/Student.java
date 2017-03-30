@@ -1,4 +1,4 @@
-package org.streams.learning;
+package rajakolli.streams.examples;
 
 public class Student {
 	 public String name;

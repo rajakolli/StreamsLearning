@@ -1,4 +1,4 @@
-package org.streams.examples;
+package rajakolli.streams.learning;
 
 import java.util.Set;
 import java.util.stream.Collectors;

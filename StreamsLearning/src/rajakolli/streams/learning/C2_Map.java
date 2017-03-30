@@ -1,4 +1,4 @@
-package org.streams.examples;
+package rajakolli.streams.learning;
 
 /*
  * A map operation applies a function to each element to produce another stream.

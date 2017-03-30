@@ -1,4 +1,4 @@
-package org.streams.examples;
+package rajakolli.streams.learning;
 /*
  * Streams can be sequential or parallel.
  * Operations on a sequential stream are processed in serial by one thread.

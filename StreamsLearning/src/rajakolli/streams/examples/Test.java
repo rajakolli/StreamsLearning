@@ -1,4 +1,4 @@
-package org.streams.learning;
+package rajakolli.streams.examples;
 
 import java.io.IOException;
 import java.nio.file.Files;

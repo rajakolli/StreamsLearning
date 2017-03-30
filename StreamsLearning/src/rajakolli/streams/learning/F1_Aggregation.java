@@ -1,4 +1,4 @@
-package org.streams.examples;
+package rajakolli.streams.learning;
 /*
  * To compute the sum, max, min, average, etc. on a numeric stream, 
  * 		we can map the non-numeric stream into numeric stream types (IntStream, LongStream, or DoubleStream) 
